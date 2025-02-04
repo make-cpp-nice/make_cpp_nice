@@ -11,7 +11,7 @@ Some thoughts:
 Library utilities:
 
 + ptr_to_unique - A smart pointer to an object already owned by a unique_ptr. It doesn't own the object but it self zeroes when the object is deleted so that it can never dangle. 
-+ numerical conversions - A set of dedicated numerical conversions that are a better choice than the canonical application static_cast. 
++ numerical conversions - A set of dedicated numerical conversions that are a better choice than the canonical application of static_cast. 
 + literal integral constants - Converts literal constants into std::integral_constant using a double underscore suffix, e.g. 4__ 
 
 
