@@ -1,4 +1,4 @@
-# Library utilities, methodologies and guidelines to make C++ nice to work with. 
+## Library utilities, methodologies and guidelines to make C++ nice to work with. 
 
 Some thoughts:
 
