@@ -1,5 +1,11 @@
 ## Library utilities, methodologies and guidelines to make C++ nice to work with. 
 
+Single header Library utilities:
+
++ [ptr_to_unique](https://github.com/make-cpp-nice/ptr_to_unique) - A smart pointer to an object already owned by a unique_ptr. It doesn't own the object but it self zeroes when the object is deleted so that it can never dangle. 
++ [numerical conversions](https://github.com/make-cpp-nice/numerical-conversions) - A set of dedicated numerical conversions that are a better choice than the canonical application of static_cast. 
++ [literal integral constants](https://github.com/make-cpp-nice/literal-integral-constants) - Converts literal constants into std::integral_constant using a double underscore suffix, e.g. 4__ 
+
 Some thoughts:
 
 + Safe is nice. That doesn't have to be the bullet proof provable safety of Rust. A more humble aim that with reasonable care safety hazards can easily be avoided would be a big improvement on the status quo. So hazards of pointer, memory or data corruption should be well controlled and easy to avoid.
@@ -8,11 +14,7 @@ Some thoughts:
 + Coding should not be laborious. You should not have to code much more than what you are thinking.
 + Learning curves should be short and provide early rewards.
 
-Library utilities:
 
-+ ptr_to_unique - A smart pointer to an object already owned by a unique_ptr. It doesn't own the object but it self zeroes when the object is deleted so that it can never dangle. 
-+ numerical conversions - A set of dedicated numerical conversions that are a better choice than the canonical application of static_cast. 
-+ literal integral constants - Converts literal constants into std::integral_constant using a double underscore suffix, e.g. 4__ 
 
 
 <!---
