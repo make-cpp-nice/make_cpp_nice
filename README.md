@@ -8,11 +8,13 @@ Single header Library utilities:
 
 Some thoughts:
 
-+ Safe is nice. That doesn't have to be the bullet proof provable safety of Rust. A more humble aim that with reasonable care safety hazards can easily be avoided would be a big improvement on the status quo. So hazards of pointer, memory or data corruption should be well controlled and easy to avoid.
++ Safe is nice. That doesn't have to be the bullet proof provable safety of Rust. A more humble aim that with reasonable care safety hazards can easily be avoided would be a big improvement on the status quo. So hazards of pointer, memory or data corruption should be well controlled and easy to avoid. The problem that needs addressing with C++ is not that you can shoot yourself in the foot, it is that it can be difficult not to shoot yourself in the foot. 
 + Identifiers should be named so that someone uninitiated has a good chance of guessing what they mean.
 + What you think in one sentence, you should be able to write in one line and it should look like what you thought. If you read it out load it should sound like a description of what your code does.
-+ Coding should not be laborious. You should not have to code much more than what you are thinking.
++ Coding should not be laborious. You should not have to code much more than what you are thinking. But don't try to cram more onto one line than the mind can comfortably grasp.
 + Learning curves should be short and provide early rewards.
++ Some clever and useful C++ constructs are difficult to decipher. Use them if they serve your purpose but encapsulate it so others don't have to go there.
++ Always prefer existing standard solutions but if they don't meet your needs then find or create something that does.
 
 
 
