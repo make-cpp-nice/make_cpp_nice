@@ -17,7 +17,7 @@ Some thoughts:
 + Some clever and useful C++ constructs are difficult to decipher. Use them if they serve your purpose but encapsulate it so others don't have to go there.
 + Always prefer existing standard solutions but if they don't meet your needs then find or create something that does.
 
-Please post any feedback or comments on [Comment and discussion](https://github.com/make-cpp-nice/make_cpp_nice/discussions)
+Please post any feedback or comments on [Comment and discussion](https://github.com/make-cpp-nice/make_cpp_nice/discussions/2)
 
 
 <!---
