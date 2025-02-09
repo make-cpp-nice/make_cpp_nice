@@ -4,7 +4,8 @@ Single header Library utilities:
 
 + [ptr_to_unique](https://github.com/make-cpp-nice/ptr_to_unique) - A smart pointer to an object already owned by a unique_ptr. It doesn't own the object but it self zeroes when the object is deleted so that it can never dangle. 
 + [numerical conversions](https://github.com/make-cpp-nice/numerical-conversions) - A set of dedicated numerical conversions that are a better choice than the canonical application of static_cast. 
-+ [literal integral constants](https://github.com/make-cpp-nice/literal-integral-constants) - Converts literal constants into std::integral_constant using a double underscore suffix, e.g. 4__ 
++ [literal integral constants](https://github.com/make-cpp-nice/literal-integral-constants) - Converts literal 
+constants into std::integral_constant using a double underscore suffix, e.g. 4__ 
 
 Some thoughts:
 
@@ -16,7 +17,7 @@ Some thoughts:
 + Some clever and useful C++ constructs are difficult to decipher. Use them if they serve your purpose but encapsulate it so others don't have to go there.
 + Always prefer existing standard solutions but if they don't meet your needs then find or create something that does.
 
-
+Please post any feedback or comments on [Comment and discussion](https://github.com/make-cpp-nice/make_cpp_nice/discussions)
 
 
 <!---
